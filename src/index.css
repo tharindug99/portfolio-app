@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Quicksand&family=Roboto:wght@100&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Outfit",sans-serif;
+
+}
+
+body{
+  background-color: black;
+  opacity: 0.9;
+}
+
+h1, h4, h6, p,
+a{
+  color:azure;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1 rem;
+  text-transform: uppercase;
+  background-color:aliceblue;
+  color: black;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4rem;
+}
+
+.btn-light{
+  background:transparent;
+  color:#fff;
+}
+
+.btn:hover{
+  background: rgba(255,255,255,0.2);
+  color:#fff;
+  transition: 0.3s;
+}
+
