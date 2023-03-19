@@ -22,5 +22,31 @@ const ProjectCardData = [
         title:"Admin Dashboard",
         text:"This is a sample project ..",
         view:"https://themeforest.net/search/lms%20react"
-    }
-]
+    },
+    {
+        imgsrc: proj3,
+        title:"Admin Dashboard",
+        text:"This is a sample project ..",
+        view:"https://themeforest.net/search/lms%20react"
+    },
+    {
+        imgsrc: proj3,
+        title:"Admin Dashboard",
+        text:"This is a sample project ..",
+        view:"https://themeforest.net/search/lms%20react"
+    },
+    {
+        imgsrc: proj3,
+        title:"Admin Dashboard",
+        text:"This is a sample project ..",
+        view:"https://themeforest.net/search/lms%20react"
+    },
+    {
+        imgsrc: proj3,
+        title:"Admin Dashboard",
+        text:"This is a sample project ..",
+        view:"https://themeforest.net/search/lms%20react"
+    },
+];
+
+export default ProjectCardData

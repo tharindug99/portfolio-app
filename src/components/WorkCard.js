@@ -1,17 +1,17 @@
 import "./WorkCardstyles.css"
 import { NavLink } from "react-router-dom";
 import React from 'react'
-import proj1 from "../assets/proj1.png";
+import ProjectCardData from "./WorkCardData";
 
-const WorkCard = () => {
+const WorkCard = (props) => {
   return (
     <div className="project-card">
-            <img src={proj1} alt="image"></img>
-            <h2 className="project-title">Admin Dashboard</h2>
+            <img src={props.imgsrc} alt="image"></img>
+            <h2 className="project-title">{props.title}</h2>
             <div className="project-details">
-              <p>Project Details</p>
+              <p>{props.text}</p>
               <div className="project-btns">
-                <NavLink to="Url.com" className="btn">View</NavLink>
+                <NavLink to={props.view} className="btn">View</NavLink>
                 <NavLink to="Url.com" className="btn">Source</NavLink>
               </div>
             </div>
