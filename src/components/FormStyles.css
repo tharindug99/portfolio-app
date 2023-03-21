@@ -1,0 +1,27 @@
+.Form{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+label{
+    color: aliceblue;
+    padding-bottom: 0.7rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    margin: auto;
+    max-width: 600px;
+}
+
+form input, form textarea{
+    margin-bottom: 1rem;
+    padding: 2% 4%;
+    border-radius: 1.7 rem;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: azure;
+}

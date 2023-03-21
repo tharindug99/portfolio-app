@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Myimage2 from '../components/Myimage2'
+import AboutContent from '../components/AboutContent'
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
       <Myimage2 heading="About Me"
       text="I am a talented and enthusiastic individual with a passion for creating innovative and intuitive user interfaces. I have a strong foundation in web development, including proficiency in HTML, CSS, and JavaScript, and am now focused on mastering the React library.
       "/>
+      <AboutContent/>
       <Footer/>
     </div>
   )
